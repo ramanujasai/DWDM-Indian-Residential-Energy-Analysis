@@ -192,16 +192,14 @@ The project directory should contain `app.py` and the saved `models` directory.
 
 ## 16. Project Reproducibility
 
-The project keeps the trained model artifacts, analysis notebook, results and application code separately:
+The repository contains the files required for the final application and its academic documentation:
 
 - `app.py` - Streamlit application
-- `final_model_with_time_profile.py` - final model-building pipeline
-- `notebooks/` - detailed analysis and experimentation notebook
-- `models/` - saved scaler and K-Means model
-- `results/` - plots and evaluation outputs
-- `final_model_results/` - final consumer/profile outputs
+- `app.py` - Streamlit application
+- `models/` - saved scaler and final K-Means model used by the application
+- `results/pca_clusters.png` - PCA visualization shown in Technical Analysis
 - `Sample data/` - sample CSV files for application demonstration
-- `archive/` - earlier development and experimental files
+- `docs/` - project documentation and presentation materials
 
 The `.venv` directory is a local Python environment and is not required to be committed to source control.
 
