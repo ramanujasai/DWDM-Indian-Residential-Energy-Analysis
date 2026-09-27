@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+.venv-1/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Large/raw datasets
+data/*.csv
+
+# Temporary/demo files
+*.tmp
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
