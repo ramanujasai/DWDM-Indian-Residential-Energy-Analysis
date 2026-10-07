@@ -2,6 +2,12 @@
 
 **DWDM Lab Project • 23CS3551**
 
+## Live Application
+
+🚀 **[Open the Streamlit Application](https://dwdm-indian-residential-energy-analysis-zpvgn7inzxahjp298cmuyw.streamlit.app/)**
+
+The live application provides the interactive Streamlit dashboard for consumer analysis, technical analysis and project information.
+
 ## 1. Project Overview
 
 This project analyzes electricity consumption patterns of Indian residential consumers using smart-meter data. Consumer-level statistical and time-based features are extracted from smart-meter readings and used with clustering techniques to identify groups of consumers with similar consumption behaviour. A saved K-Means model is then used to analyze a new consumer dataset.
@@ -194,7 +200,6 @@ The project directory should contain `app.py` and the saved `models` directory.
 
 The repository contains the files required for the final application and its academic documentation:
 
-- `app.py` - Streamlit application
 - `app.py` - Streamlit application
 - `models/` - saved scaler and final K-Means model used by the application
 - `results/pca_clusters.png` - PCA visualization shown in Technical Analysis
